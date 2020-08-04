@@ -35,7 +35,7 @@ Cette méthode permet de lancer une requête sur chaque géométrie du fichier S
 ainsi si seras plus facile d'extaire un ensemble de donnée sur une zone géographique importantes.
 De base le fichier inclue permet d'obtenir l'ensemble de la région Pays de la Loire.
 
-#### 2.2 Emprise ciblé 
+#### 2.2 - Emprise ciblé 
 
 Cette méthodes, souvent plus rapide vous permet en indiquant latitudes et longitudes (min et max) de selectionner votre zone, de cette façon une seule requête est envoyé.
 cependant attention si la zone est trop importante il est possible que la requête ne puisse pas aboutir dans ce cas, il faudras découper votre zone en plusieurs partie et se référer à la méthodes 1
