@@ -1,6 +1,7 @@
 # Requete_OSM_via_R
 Script qui permet d'automatiser d'extraction de donnée OSM pour les analyser, comparer, enregistrer via le logiciel R 
 
+## Structuration des fichiers 
 Vous pouvez directement télécharger le dossier REQUETE_OSM
 à l'intérieur se situe :
 
@@ -8,7 +9,7 @@ Vous pouvez directement télécharger le dossier REQUETE_OSM
 * Dossier SHP_REG : fichier SHP, contenant les différentes zones à extraire les données
 * le script R : qui permet de lancer les requêtes sur OSM
 
-
+## Structuration du script
 Le fonctionnement script est fragmenté en plusieurs parties :
 
 * 0 - Chargement des librairies 
@@ -28,7 +29,7 @@ Certaine variable son a changer, tel que :
 ***
 
 Enfin vous pouvez lancer une requête de deux façons : 
-##### 2.1 - ensemble de la région 
+#### 2.1 - ensemble de la région 
 
 Cette méthode permet de lancer une requête sur chaque géométrie du fichier SHP et d'assembler le resultat sous un seule fichier,
 ainsi si seras plus facile d'extaire un ensemble de donnée sur une zone géographique importantes.
