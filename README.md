@@ -1,5 +1,5 @@
 # Requete_OSM_via_R
-Script qui permet d'automatiser l'extraction des données OSM via trubopass pour les analyser, comparer, enregistrer via les données géographiques dans le logiciel R 
+Script qui permet d'automatiser l'extraction des données OSM via trubopass pour les analyser, comparer, enregistrer les données géographiques dans le logiciel R 
 
 ## Structuration des fichiers 
 Vous pouvez directement télécharger le dossier REQUETE_OSM
